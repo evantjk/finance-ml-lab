@@ -78,3 +78,7 @@ Render blueprint — point Render at the repo (New → Blueprint) and it builds 
 | `GET /rank?top_n=10` | cross-sectional long/short candidates |
 | `GET /volatility/{ticker}` | next-21d realised-vol forecast (HAR-lev + GJR) |
 | `GET /direction/{ticker}` | **calibrated** P(up) — odds, not a prediction |
+
+## License
+
+[MIT](LICENSE) © Evan Teong. Research and educational use only — not investment advice.

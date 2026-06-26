@@ -1,0 +1,12 @@
+# Normalise line endings across platforms
+* text=auto eol=lf
+
+# Treat notebooks and data as text where sensible
+*.py    text diff=python
+*.md    text
+*.csv   text
+*.json  text
+
+# Binary assets
+*.png    binary
+*.joblib binary
