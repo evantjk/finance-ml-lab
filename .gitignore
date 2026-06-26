@@ -1,0 +1,23 @@
+# Virtual environments
+.venv/
+.venv-dl/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Market-data cache (re-downloaded from yfinance on demand).
+# Keep the universe metadata so the API knows the tradable set.
+data/*.csv
+!data/sp500_meta.csv
+
+# Large / regenerable artifacts
+*.log
