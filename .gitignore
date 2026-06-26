@@ -21,3 +21,6 @@ data/*.csv
 
 # Large / regenerable artifacts
 *.log
+
+# graphify knowledge-graph build output
+graphify-out/

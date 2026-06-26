@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <style>
+    .tile { fill: #1d1d1f; }
+    .fg   { stroke: #f5f5f7; }
+    .tri  { fill: #f5f5f7; }
+    @media (prefers-color-scheme: dark) {
+      .tile { fill: #f5f5f7; }
+      .fg   { stroke: #1d1d1f; }
+      .tri  { fill: #1d1d1f; }
+    }
+  </style>
+  <!-- rounded app tile (flips with the OS theme so it always contrasts the tab bar) -->
+  <rect class="tile" x="0" y="0" width="32" height="32" rx="7.5"/>
+  <!-- balance beam pivoting on the fulcrum: left end long (green), right end short (red) -->
+  <g transform="rotate(-8 16 16)">
+    <line class="fg" x1="6.5" y1="15.5" x2="25.5" y2="15.5"
+          stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="6.5"  cy="15.5" r="2.5" fill="#30d158"/>
+    <circle cx="25.5" cy="15.5" r="2.5" fill="#ff453a"/>
+  </g>
+  <!-- the fulcrum the beam balances on -->
+  <path class="tri" d="M16 15.5 L20 23.5 L12 23.5 Z"/>
+</svg>
